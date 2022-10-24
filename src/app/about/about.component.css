@@ -1,0 +1,62 @@
+.section{
+  padding: 5rem 10%;
+}
+
+.about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  
+  .about .content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+  }
+  
+  .about .content .about-title {
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  .about .content p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #777;
+    padding: 1rem 0;
+  }
+  
+  .about .content .icons-container {
+    margin-top: 1rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(16rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .about .content .icons-container .icons {
+    text-align: center;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    padding: 3rem 2rem;
+  }
+  
+  .about .content .icons-container .icons img {
+    height: 10rem;
+    margin-bottom: .5rem;
+  }
+
+  .about .content .icons-container .icons .h3{
+    font-size: 6rem;
+    color:#333;
+  }
+

@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: hotpink;
+    text-transform: capitalize;
+}
+
+h1:hover{
+    color: red;
+}
+
+a:link,a:visited{
+    background-color: hotpink;
+    color:white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left:60px;
+    margin-right:100px;
+}
+
+a:hover,a:active{
+    background-color: red;
+}
